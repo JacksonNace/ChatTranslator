@@ -2,4 +2,49 @@
     width: 500px;
     height:500px;
     background-color:gray;
+    position:relative;
+    margin:auto;
+    margin-top:5rem;
+    
 }
+
+.textbox{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    margin:auto;
+
+}
+
+.text{
+    height:25px;
+    width:65%;
+    margin-left:2.5rem;
+}
+
+.green-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:auto;
+  }
+  
+  .green-button:hover {
+    background-color: darkgreen;
+  }
+
+  .blue-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blue-button:hover {
+    background-color: violet;
+  }
